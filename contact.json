@@ -1,0 +1,28 @@
+[
+    {
+        "firstName": "Tanner",
+        "lastName": "Overbay",
+        "email": "tanneroverbay@gmail.com",
+        "favoriteColor": "Blue",
+        "birthday": {
+            "$date": "1995-09-05T05:00:00.000Z"
+        }
+    },
+
+    {
+        "firstName": "Bruna",
+        "lastName": "Souza",
+        "email": "brunasouza@gmail.com",
+        "favoriteColor": "Purple",
+        "birthday": {
+            "$date": "1998-07-28T05:00:00.000Z"
+        }
+    },
+    {
+        "firstName": "Gabriela",
+        "lastName": "Souza",
+        "email": "gabrielasouza@gmail.com",
+        "favoriteColor": "Pink",
+        "birthday": "2002-07-08T05:00:00.000Z"
+    }
+]
