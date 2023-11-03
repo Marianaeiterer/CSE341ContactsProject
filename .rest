@@ -1,5 +1,10 @@
 GET http://localhost:3000/contacts HTTP/1.1
 
 
-
 GET http://localhost:3000/contacts/654403a0bec29fcb30c3d919 HTTP/1.1
+
+
+GET https://cs341contactsproject.onrender.com/contacts
+
+
+GET https://cs341contactsproject.onrender.com/contacts/654403a0bec29fcb30c3d919

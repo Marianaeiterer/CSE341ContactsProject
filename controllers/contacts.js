@@ -1,9 +1,8 @@
 const mongodb = require("../db/connect");
 const ObjectId = require("mongodb").ObjectId;
 
-
-
-const getAll = async (req, res) => {  //get all contacts 
+ //get all contacts 
+const getAll = async (req, res) => { 
     const result = await mongodb
       .getDatabase()
       .db("contacts_project")  // database name
@@ -15,7 +14,9 @@ const getAll = async (req, res) => {  //get all contacts
     });
 };
 
-const getSingle = async (req, res) => {   //get one contact
+
+//get one contact
+const getSingle = async (req, res) => {   
     const userId = new ObjectId(req.params.id);
     const result = await mongodb
       .getDatabase()
@@ -31,4 +32,4 @@ const getSingle = async (req, res) => {   //get one contact
 module.exports = {
     getAll,
     getSingle
-}
+};
