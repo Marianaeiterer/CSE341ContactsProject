@@ -48,4 +48,35 @@ GET https://cs341contactsproject.onrender.com/contacts
 
 ### Get one contact by id
 
-GET https://cs341contactsproject.onrender.com/contacts/654403a0bec29fcb30c3d919
+GET https://cs341contactsproject.onrender.com/contacts/654d4a83be2fee8df75f7516
+
+
+### Create contact
+
+POST https://cs341contactsproject.onrender.com/contacts/
+Content-Type: application/json
+
+{
+    "firstName": "Mariana",
+    "lastName": "Overbay",
+    "email": "marioverbay@gmail.com",
+    "favoriteColor": "Blue",
+    "birthday": "05/24/1995"
+}
+
+### Update contact
+
+PUT https://cs341contactsproject.onrender.com/contacts/654d4a83be2fee8df75f7517
+Content-Type: application/json
+
+{
+    "firstName": "Bruna",
+    "lastName": "Souza",
+    "email": "brunasouza@gmail.com",
+    "favoriteColor": "Pink",
+    "birthday": "07/28/1998"
+}
+
+### Delete contact - remember to change the id
+
+DELETE https://cs341contactsproject.onrender.com/contacts/654fbdcfd6944397dc4f9c14
