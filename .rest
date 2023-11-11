@@ -79,4 +79,4 @@ Content-Type: application/json
 
 ### Delete contact - remember to change the id
 
-DELETE https://cs341contactsproject.onrender.com/contacts/654fbdcfd6944397dc4f9c14
+DELETE https://cs341contactsproject.onrender.com/contacts/654fc6f6e2e8cfac42e898b2
