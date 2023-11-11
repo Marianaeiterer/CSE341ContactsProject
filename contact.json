@@ -6,7 +6,6 @@
         "favoriteColor": "Blue",
         "birthday": "09/05/1995"
     },
-
     {
         "firstName": "Bruna",
         "lastName": "Souza",
@@ -20,5 +19,26 @@
         "email": "gabrielasouza@gmail.com",
         "favoriteColor": "Pink",
         "birthday": "07/08/2002"
+    },
+    {
+        "firstName": "Andreia",
+        "lastName": "Rodrigues",
+        "email": "andreiarodrigues@gmail.com",
+        "favoriteColor": "Black",
+        "birthday": "11/17/1994"
+    },
+    {
+        "firstName": "Anderson",
+        "lastName": "Souza",
+        "email": "andersonsouza@gmail.com",
+        "favoriteColor": "Blue",
+        "birthday": "08/12/1968"
+    }, 
+    {
+        "firstName": "Ilma",
+        "lastName": "Souza",
+        "email": "ilmasouza@gmail.com",
+        "favoriteColor": "Red",
+        "birthday": "08/30/1967"
     }
 ]
